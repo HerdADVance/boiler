@@ -1,0 +1,47 @@
+@import "../css/normalize"
+@import "variables.sass"
+@import "base.sass"
+@import "elements.sass"
+
+header
+	border-top: 40px solid $primary
+	box-shadow: 2px 2px 6px #000
+	padding-bottom: 10px
+	padding-top: 10px
+
+.nav li
+	margin-left: 1.5em
+
+.nav li:first-child	
+	margin-left: 0
+
+.nav a
+	color: $secondary
+	font-size: 1.25em
+	font-weight: bold
+
+.home-sliders
+	border-bottom: 3px solid $secondary
+	height: 50vh
+
+.home-slider
+	background-image: url()
+	background-position: 50% 20%
+	background-repeat: no-repeat
+	background-size: cover
+	height: calc(100% + 1px)
+	width: 100%
+
+.home-welcome h1
+	font-size: 2em
+
+.home-welcome p
+	font-size: 1.5em
+	line-height: 1.75em
+
+
+
+.footer
+	border-top: 3px solid $secondary
+	padding-bottom: 30px
+	padding-top: 30px
